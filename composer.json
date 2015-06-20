@@ -1,0 +1,25 @@
+{
+  "name": "pbogdan/resolv",
+  "description": "",
+  "require": {
+    "daverandom/libdns": "1.0.1"
+  },
+  "authors": [
+    {
+      "name": "Piotr Bogdan",
+      "email": "ppbogdan@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Resolv\\": "src/Resolv/"
+    },
+    "files": [
+      "src/Resolv/functions.php"
+    ]
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "preferred-install": "dist"
+  }
+}
